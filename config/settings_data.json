@@ -17,6 +17,7 @@
           "message": false,
           "home_page_only": true,
           "message_text": "Announce something here",
+          "message_link": "",
           "color_bg": "#3a3a3a",
           "color_text": "#ffffff"
         }
@@ -42,7 +43,8 @@
           "layout": "left",
           "title": "Image with text",
           "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-          "button_label": ""
+          "button_label": "",
+          "button_link": ""
         }
       },
       "feature-columns": {
@@ -139,6 +141,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/instagram_1.jpg",
               "alignment": "center",
+              "link": "",
               "cta_label": ""
             }
           },
@@ -147,6 +150,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/instagram_2.jpg",
               "alignment": "center",
+              "link": "",
               "cta_label": ""
             }
           },
@@ -155,6 +159,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/instagram_3.jpg",
               "alignment": "center",
+              "link": "",
               "cta_label": ""
             }
           },
@@ -163,6 +168,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/instagram_4.jpg",
               "alignment": "center",
+              "link": "",
               "cta_label": ""
             }
           }
@@ -174,6 +180,7 @@
           "8a3cf363-7ade-4856-a6ba-0b7000cf8a60"
         ],
         "settings": {
+          "heading": "Instagram",
           "section_height": "small"
         }
       },
@@ -222,7 +229,8 @@
           "layout": "left",
           "title": "Image with text",
           "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-          "button_label": ""
+          "button_label": "",
+          "button_link": ""
         }
       },
       "1621596756a1b4c354": {
@@ -232,16 +240,8 @@
           "layout": "right",
           "title": "Image with text",
           "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-          "button_label": ""
-        }
-      },
-      "162159787859987ca8": {
-        "type": "rich-text",
-        "settings": {
-          "full_width": false,
-          "section_title": "Instagram",
-          "text": "",
-          "text_size": "medium"
+          "button_label": "",
+          "button_link": ""
         }
       },
       "product-template": {
@@ -263,6 +263,66 @@
           "heading": "You may also like",
           "show_vendor": false
         }
+      },
+      "faq": {
+        "type": "faq",
+        "blocks": {
+          "282de4a3-5bd3-4075-a343-dc21c92e9bda": {
+            "type": "headline",
+            "settings": {
+              "title": "Orders"
+            }
+          },
+          "3948448a-5852-4bca-82ff-42c42b1eeb88": {
+            "type": "QA",
+            "settings": {
+              "question": "Can i change my order?",
+              "answer": "<p>Yes<\/p>"
+            }
+          },
+          "7c4ae7ed-a456-4930-a98c-14c11de2c642": {
+            "type": "QA",
+            "settings": {
+              "question": "What are the delivery times?",
+              "answer": "<p>3-4 week<\/p>"
+            }
+          },
+          "5f213d9c-a541-4130-bf15-e8bc088257f9": {
+            "type": "headline",
+            "settings": {
+              "title": "Product"
+            }
+          },
+          "53c95c26-f800-40ca-8b72-94b5de6b4974": {
+            "type": "QA",
+            "settings": {
+              "question": "Can i get my product personalized?",
+              "answer": "<p>All options are outlines on the product page.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "282de4a3-5bd3-4075-a343-dc21c92e9bda",
+          "3948448a-5852-4bca-82ff-42c42b1eeb88",
+          "7c4ae7ed-a456-4930-a98c-14c11de2c642",
+          "5f213d9c-a541-4130-bf15-e8bc088257f9",
+          "53c95c26-f800-40ca-8b72-94b5de6b4974"
+        ],
+        "settings": {
+          "heading": "YOUR QUESTIONS ANSWERED"
+        }
+      },
+      "contact": {
+        "type": "contact",
+        "settings": {
+          "isOrderNumberEnabled": true
+        }
+      },
+      "contact-wholesale": {
+        "type": "contact-wholesale",
+        "settings": {
+          "buisness-types": "Retail Store,e-Commerce,US Distributor,Ebay"
+        }
       }
     },
     "content_for_index": [
@@ -271,7 +331,6 @@
       "1621596756a1b4c354",
       "1621596743f3778785",
       "quotes",
-      "162159787859987ca8",
       "image-bar"
     ]
   },
